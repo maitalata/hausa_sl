@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hausasl">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HausaSL">
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".TenthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".NinthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".EighthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".SeventhQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".SixthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".FifthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".FourthQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".ThirdQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetBa"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetYa"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetDa"
+            android:exported="true" />
+        <activity
+            android:name=".ThankYou"
+            android:exported="true" />
+        <activity
+            android:name=".GoodAfternoon"
+            android:exported="true" />
+        <activity
+            android:name=".GoodMorning"
+            android:exported="true" />
+        <activity
+            android:name=".Month"
+            android:exported="true" />
+        <activity
+            android:name=".Week"
+            android:exported="true" />
+        <activity
+            android:name=".Yesterday"
+            android:exported="true" />
+        <activity
+            android:name=".Tomorrow"
+            android:exported="true" />
+        <activity
+            android:name=".Afternoon"
+            android:exported="true" />
+        <activity
+            android:name=".Morning"
+            android:exported="true" />
+        <activity
+            android:name=".Now"
+            android:exported="true" />
+        <activity
+            android:name=".Time"
+            android:exported="true" />
+        <activity
+            android:name=".Day"
+            android:exported="true" />
+        <activity
+            android:name=".Today"
+            android:exported="true" />
+        <activity
+            android:name=".FourTimesTwo"
+            android:exported="true" />
+        <activity
+            android:name=".TwoTimesThree"
+            android:exported="true" />
+        <activity
+            android:name=".SixDivideByThree"
+            android:exported="true" />
+        <activity
+            android:name=".EightDivideByTwo"
+            android:exported="true" />
+        <activity
+            android:name=".SixMinusTwo"
+            android:exported="true" />
+        <activity
+            android:name=".FiveMinusFour"
+            android:exported="true" />
+        <activity
+            android:name=".TwoPlusFive"
+            android:exported="true" />
+        <activity
+            android:name=".OnePlusOne"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetKa"
+            android:exported="true" />
+        <activity
+            android:name=".SecondQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".SecondMain"
+            android:exported="true" />
+        <activity
+            android:name=".December"
+            android:exported="true" />
+        <activity
+            android:name=".November"
+            android:exported="true" />
+        <activity
+            android:name=".October"
+            android:exported="true" />
+        <activity
+            android:name=".September"
+            android:exported="true" />
+        <activity
+            android:name=".August"
+            android:exported="true" />
+        <activity
+            android:name=".July"
+            android:exported="true" />
+        <activity
+            android:name=".June"
+            android:exported="true" />
+        <activity
+            android:name=".May"
+            android:exported="true" />
+        <activity
+            android:name=".April"
+            android:exported="true" />
+        <activity
+            android:name=".March"
+            android:exported="true" />
+        <activity
+            android:name=".February"
+            android:exported="true" />
+        <activity
+            android:name=".January"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarMain"
+            android:exported="true" />
+        <activity
+            android:name=".MayBe"
+            android:exported="true" />
+        <activity
+            android:name=".Sky"
+            android:exported="true" />
+        <activity
+            android:name=".World"
+            android:exported="true" />
+        <activity
+            android:name=".Cry"
+            android:exported="true" />
+        <activity
+            android:name=".Continue"
+            android:exported="true" />
+        <activity
+            android:name=".Careful"
+            android:exported="true" />
+        <activity
+            android:name=".Use"
+            android:exported="true" />
+        <activity
+            android:name=".Wait"
+            android:exported="true" />
+        <activity
+            android:name=".Look"
+            android:exported="true" />
+        <activity
+            android:name=".Appoint"
+            android:exported="true" />
+        <activity
+            android:name=".Action"
+            android:exported="true" />
+        <activity
+            android:name=".Shocked"
+            android:exported="true" />
+        <activity
+            android:name=".Fear"
+            android:exported="true" />
+        <activity
+            android:name=".Angry"
+            android:exported="true" />
+        <activity
+            android:name=".Laugh"
+            android:exported="true" />
+        <activity
+            android:name=".Sad"
+            android:exported="true" />
+        <activity
+            android:name=".Happy"
+            android:exported="true" />
+        <activity
+            android:name=".Garden"
+            android:exported="true" />
+        <activity
+            android:name=".Rain"
+            android:exported="true" />
+        <activity
+            android:name=".Winter"
+            android:exported="true" />
+        <activity
+            android:name=".Summer"
+            android:exported="true" />
+        <activity
+            android:name=".Cheese"
+            android:exported="true" />
+        <activity
+            android:name=".Coconut"
+            android:exported="true" />
+        <activity
+            android:name=".Pineapple"
+            android:exported="true" />
+        <activity
+            android:name=".Orange"
+            android:exported="true" />
+        <activity
+            android:name=".Banana"
+            android:exported="true" />
+        <activity
+            android:name=".Tomato"
+            android:exported="true" />
+        <activity
+            android:name=".Onion"
+            android:exported="true" />
+        <activity
+            android:name=".Candy"
+            android:exported="true" />
+        <activity
+            android:name=".Soup"
+            android:exported="true" />
+        <activity
+            android:name=".Tea"
+            android:exported="true" />
+        <activity
+            android:name=".Milk"
+            android:exported="true" />
+        <activity
+            android:name=".Sugar"
+            android:exported="true" />
+        <activity
+            android:name=".Pepper"
+            android:exported="true" />
+        <activity
+            android:name=".Project"
+            android:exported="true" />
+        <activity
+            android:name=".Dictionary"
+            android:exported="true" />
+        <activity
+            android:name=".School"
+            android:exported="true" />
+        <activity
+            android:name=".Examination"
+            android:exported="true" />
+        <activity
+            android:name=".Scissors"
+            android:exported="true" />
+        <activity
+            android:name=".Drawer"
+            android:exported="true" />
+        <activity
+            android:name=".Chair"
+            android:exported="true" />
+        <activity
+            android:name=".Table"
+            android:exported="true" />
+        <activity
+            android:name=".Cup"
+            android:exported="true" />
+        <activity
+            android:name=".Key"
+            android:exported="true" />
+        <activity
+            android:name=".Window"
+            android:exported="true" />
+        <activity
+            android:name=".Refrigrator"
+            android:exported="true" />
+        <activity
+            android:name=".Toothbrush"
+            android:exported="true" />
+        <activity
+            android:name=".Mirror"
+            android:exported="true" />
+        <activity
+            android:name=".Bed"
+            android:exported="true" />
+        <activity
+            android:name=".Spoon"
+            android:exported="true" />
+        <activity
+            android:name=".Knife"
+            android:exported="true" />
+        <activity
+            android:name=".Door"
+            android:exported="true" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetTs"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetKy"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetGw"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetGy"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetFy"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetKw"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetSh"
+            android:exported="true" />
+        <activity
+            android:name=".HaruffanHausa"
+            android:exported="true" />
+        <activity
+            android:name=".FirstQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".ArithmeticMAIN"
+            android:exported="true" />
+        <activity
+            android:name=".Number10"
+            android:exported="true" />
+        <activity
+            android:name=".Number9"
+            android:exported="true" />
+        <activity
+            android:name=".Number8"
+            android:exported="true" />
+        <activity
+            android:name=".Number7"
+            android:exported="true" />
+        <activity
+            android:name=".Number6"
+            android:exported="true" />
+        <activity
+            android:name=".Number5"
+            android:exported="true" />
+        <activity
+            android:name=".Number4"
+            android:exported="true" />
+        <activity
+            android:name=".Number3"
+            android:exported="true" />
+        <activity
+            android:name=".Number2"
+            android:exported="true" />
+        <activity
+            android:name=".Number1"
+            android:exported="true" />
+        <activity
+            android:name=".Chicken"
+            android:exported="true" />
+        <activity
+            android:name=".Horse"
+            android:exported="true" />
+        <activity
+            android:name=".Rat"
+            android:exported="true" />
+        <activity
+            android:name=".Snake"
+            android:exported="true" />
+        <activity
+            android:name=".Cat"
+            android:exported="true" />
+        <activity
+            android:name=".Dog"
+            android:exported="true" />
+        <activity
+            android:name=".Elephant"
+            android:exported="true" />
+        <activity
+            android:name=".Fish"
+            android:exported="true" />
+        <activity
+            android:name=".Cow"
+            android:exported="true" />
+        <activity
+            android:name=".Lion"
+            android:exported="true" />
+        <activity
+            android:name=".ThingsMain"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetZ"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetY"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetW"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetU"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetT"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetS"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetR"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetQ"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetP"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetO"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetN"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetM"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetL"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetK"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetJ"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetI"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetH"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetG"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetF"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetE"
+            android:exported="true" />
+        <activity
+            android:name=".AphabetD"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetC"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetB"
+            android:exported="true" />
+        <activity
+            android:name=".AlphabetA"
+            android:exported="true" />
+        <activity
+            android:name=".PinkColor"
+            android:exported="true" />
+        <activity
+            android:name=".PurpleColor"
+            android:exported="true" />
+        <activity
+            android:name=".BlackColor"
+            android:exported="true" />
+        <activity
+            android:name=".OrangeColor"
+            android:exported="true" />
+        <activity
+            android:name=".BrownColor"
+            android:exported="true" />
+        <activity
+            android:name=".YellowColor"
+            android:exported="true" />
+        <activity
+            android:name=".RedColor"
+            android:exported="true" />
+        <activity
+            android:name=".BlueColor"
+            android:exported="true" />
+        <activity
+            android:name=".GreenColor"
+            android:exported="true" />
+        <activity
+            android:name=".WhiteColor"
+            android:exported="true" />
+        <activity android:name=".SuperKitty" />
+        <activity android:name=".HungryCaterpiller" />
+        <activity android:name=".DreamBig" />
+        <activity android:name=".ShortStories" />
+        <activity android:name=".Colors" />
+        <activity android:name=".LionAndRat" />
+        <activity android:name=".ClassifierActivity" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.HausaSL.NoActionBar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
